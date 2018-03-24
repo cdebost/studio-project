@@ -19,13 +19,22 @@
                 "element": {"#": "text"},
                 "value": "asd"
             }
+        },
+        "text2": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "text2"},
+                "value": "Text"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <p data-montage-id="text"></p>
+        <p data-montage-id="text">
+            <p data-montage-id="text2"></p>
+        </p>
     </div>
 </body>
 </html>
